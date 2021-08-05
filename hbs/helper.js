@@ -8,7 +8,7 @@ hbs.registerHelper('getProducto',function(){
         patineta += '<div id="img_producto">';
         patineta +='<img src="'+prods.url+'" height="150px" width="100px"><br>';
         patineta +='<br><p>'+prods.nombre+'</p>';
-        patineta += '<p>' +prods.precio+ '$</p>';
+        patineta += '<p>$' +prods.precio+ '</p>';
         patineta += '</div>';
 
 

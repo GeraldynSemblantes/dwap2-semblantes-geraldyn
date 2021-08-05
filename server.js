@@ -2,10 +2,11 @@ const express=require('express');
 const app=express();
 
 const hbs=require('hbs');
-const port=process.env.PORT ||3000;
+const port=process.env.PORT || 3000;
 hbs.registerPartials(__dirname + '/views/partials');
 
 require('./hbs/helper');
+
 
 app.use(express.static(__dirname+'/public'));
 app.set('view engine','hbs');
@@ -17,6 +18,6 @@ app.get(`/`,(req,res)=>{
     res.render('index');
 });
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log(`Servidor ejecutandose en el puerto ${port}`);
 });
