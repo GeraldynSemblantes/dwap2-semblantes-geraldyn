@@ -1,0 +1,22 @@
+{
+  "name": "examen2",
+  "version": "1.0.0",
+  "description": "Exemen Web Avanzada Unidad 2",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "Geraldyn Semblantes",
+  "license": "ISC"
+}

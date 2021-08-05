@@ -1,0 +1,20 @@
+[
+    {
+        "url":"https://m.media-amazon.com/images/I/61g80XqXimL._AC_SL1500_.jpg",
+ 		"nombre": "Dinbin",
+  		"precio": "34.00"
+    },
+
+    {
+        "url": "https://i.pinimg.com/originals/4b/1d/89/4b1d8998aa7c79b87fe332e7971034df.jpg",
+ 		"nombre": "Clásica",
+  		"precio": "50.00"
+
+    },
+
+    {
+        "url": "https://http2.mlstatic.com/D_NQ_NP_616874-MCO31002550838_062019-O.jpg",
+ 		"nombre": "Longboard",
+  		"precio": "80.00"
+    }
+]

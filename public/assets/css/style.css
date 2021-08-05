@@ -1,0 +1,170 @@
+body{
+    margin:0;
+}
+header{
+    align-items: center;
+}
+header .portada{
+    display: flex;
+    height: 100vh;
+    background:center/98% no-repeat;
+    background-image:
+    linear-gradient(
+    rgba(46, 51, 80, 0.5),
+    rgba(43, 36, 82, 0.7),
+    rgba(46, 51, 80, 0.5)
+    ),url("https://data.whicdn.com/images/147417384/original.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+} 
+header .encabezados p{
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;   
+}
+header .encabezados h1{
+    color: rgb(250, 1, 250);
+    font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+
+ button{
+    background:#9d8189;
+    color:white;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s, box-shadow 0.25s;
+    left:500px;
+}
+ button:hover{
+    border-color:purple;
+    background: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em purple;
+    transform: translateY(-0.3em);
+}
+
+#seccion_infromacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: #dec9e9;
+    padding: 10px;
+}
+.imagen{
+    margin-top: 40px;
+    background:center/98% no-repeat
+     url("https://i.pinimg.com/564x/f6/11/26/f6112624a27c25486ae2701c18ea558b.jpg");
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    transition: all 1s;
+}
+.imagen:hover{
+    background:center/100% no-repeat 
+     url("https://i.pinimg.com/564x/f6/11/26/f6112624a27c25486ae2701c18ea558b.jpg");
+    height: 310px;
+    width: 300px;
+    background-size: cover;   
+}
+.informacion{
+    padding-left:30px;
+}
+.informacion p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+#title{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    color:#6d597a;
+}
+h2{
+    color: #3d5a80;
+    font-size: 30px;
+    font-family: 'Reggae One', cursive;
+}
+
+#productos{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+#productos img{
+    margin-top: 30px;
+    flex-wrap: inherit;
+    border-radius: 10%;
+    transition: all 1s;
+    margin-left: 50px;
+    
+}
+#productos img:hover{
+    height: 260px;
+    width: 210px;
+    border-radius: 10%;   
+}
+#img_producto{
+    text-align: center;
+    color:black;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+#info_productos p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    color:black;
+}
+
+#contactos{
+    background-color: #dec9e9;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: left;
+    padding: 35px;
+    border: 5px;
+    padding-left: 35px;
+}
+#contactos a{
+     color:black;
+}
+#contactos div{
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    color: black;
+}
+#contactos p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color:white;
+    color:rgb(7, 7, 7);
+    padding: 20px;
+}
+footer h3{
+    font-size: 15px;
+    text-align: center;
+    color: #0f4c5c;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+}
